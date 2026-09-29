@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rencanakan kunjungan ke Taman Nasional Bunaken." />
+    <title>Pesan Kunjungan | Wisata Bunaken</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">Wisata Bunaken</a>
+      <nav class="site-nav" aria-label="Navigasi utama"><ul>
+        <li><a href="tentang.html">Tentang</a></li><li><a href="daya-tarik.html">Daya Tarik</a></li><li><a href="galeri.html">Galeri</a></li><li><a href="tiket.html">Tiket</a></li><li><a href="pesan.html" aria-current="page">Pesan</a></li>
+      </ul></nav>
+    </header>
+    <main>
+      <section class="page-heading"><div><p class="eyebrow">Siapkan perjalanan</p><h1>Pesan Kunjungan</h1><p>Isi rencana kunjunganmu. Tim pengelola dapat menghubungi melalui email yang dicantumkan.</p></div></section>
+      <section class="page-content form-layout">
+        <div class="form-copy"><h2>Mulai dari rencana sederhana</h2><p>Pilih tanggal dan aktivitas yang kamu inginkan. Untuk tarif dan ketersediaan terbaru, silakan konfirmasi langsung dengan pengelola.</p></div>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Data Pengunjung</legend>
+            <div class="field"><label for="nama">Nama</label><input type="text" id="nama" name="nama" autocomplete="name" required /></div>
+            <div class="field"><label for="email">Email</label><input type="email" id="email" name="email" autocomplete="email" required /></div>
+            <div class="field"><label for="tgl">Tanggal Kunjungan</label><input type="date" id="tgl" name="tgl" /></div>
+            <div class="field"><label for="jml">Jumlah Orang</label><input type="number" id="jml" name="jml" min="1" max="20" value="1" /></div>
+            <div class="field field-wide"><label for="paket">Paket</label><select id="paket" name="paket"><option>Snorkeling</option><option>Diving</option><option>Island Tour</option></select></div>
+            <div class="field field-wide"><label for="catatan">Catatan</label><textarea id="catatan" name="catatan" rows="4" placeholder="Ceritakan kebutuhan khusus atau pertanyaanmu"></textarea></div>
+            <button type="submit">Kirim Pesanan</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer"><p>Dikelola oleh Kelas Web Design</p><p>Email: <a href="mailto:info@bunaken.example">info@bunaken.example</a></p><p>Telp: <a href="tel:+6281248340906">0812-4834-0906</a></p><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></footer>
+  </body>
+</html>
